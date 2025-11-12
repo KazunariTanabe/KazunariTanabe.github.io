@@ -7,7 +7,7 @@ permalink: /research/
 # Working Papers
 ---
 
-{\bf The Size-Centrality Relationship in Production Networks}
+**The Size-Centrality Relationship in Production Networks**
 *with Nikola Dacic and Marko Melolinna*
 new draft coming soon!
 
@@ -16,8 +16,8 @@ new draft coming soon!
 # Work in Progress
 ---
 
-{\bf Cross-Country Agricultural Productivity Differences and Intermediate Input Intensity}
+**Cross-Country Agricultural Productivity Differences and Intermediate Input Intensity**
 
-{\bf Cross-Country Differences in the Impacts of Sectoral Shocks}
+**Cross-Country Differences in the Impacts of Sectoral Shocks**
 
-{\bf Macroprudential Regulation, Financial Stability, and Economic Growth}
+**Macroprudential Regulation, Financial Stability, and Economic Growth**
