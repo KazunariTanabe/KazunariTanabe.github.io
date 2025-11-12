@@ -39,6 +39,12 @@ body {
   }
 }
 
+// Hide site title only on homepage
+.home-page .site-title {
+  visibility: hidden;
+  width: 0;
+}
+
 // Navigation links
 .site-nav {
   line-height: 64px;
@@ -55,31 +61,29 @@ body {
   }
 }
 
-// Profile photo styling - Marco Bellifemine style
-.profile-photo {
+// Profile photo styling
+.profile-photo,
+.home img[alt*="Name"],
+.home img[src*="profile"] {
   float: right;
-  width: 200px;  // Good size for profile photo
+  width: 180px;  // Good size like sjhobler
   height: auto;  // Maintains aspect ratio
   margin: 0 0 30px 40px;  // Spacing from text
   border-radius: 3px;
-}
-
-// Alternative image selectors (in case the class doesn't work)
-.home img[alt="Profile"],
-.home img[alt="xxx"],
-.home img[src*="profile"] {
-  float: right;
-  width: 200px;
-  height: auto;
-  margin: 0 0 30px 40px;
-  border-radius: 3px;
+  box-shadow: 0 1px 3px rgba(0,0,0,0.1);
 }
 
 // Homepage specific styles
 .home {
-  // Hide any h1 headers on homepage (since you don't have your name as a header)
+  // Large name header like sjhobler.github.io
   h1 {
-    display: none;
+    font-size: 2.5em;  // Large size like sjhobler
+    font-weight: 600;
+    margin-top: 0;
+    margin-bottom: 25px;
+    color: #24292e;
+    line-height: 1.2;
+    display: block; // Make sure it shows
   }
   
   // Make paragraphs clean and readable
@@ -89,13 +93,12 @@ body {
     font-size: 16px;
     margin-bottom: 18px;
     color: #333;
-    max-width: 100%;
   }
   
   // Ensure minimum height so image doesn't overflow
   min-height: 250px;
   
-  // Section headers (if you add them later)
+  // Section headers if you add them later
   h2 {
     font-size: 1.3em;
     font-weight: 600;
@@ -103,6 +106,7 @@ body {
     margin-bottom: 15px;
     color: #24292e;
     clear: both; // Ensures headers don't wrap around image
+    border-bottom: none;
   }
 }
 
@@ -177,17 +181,21 @@ hr {
   }
   
   .profile-photo,
-  .home img[alt="Profile"],
-  .home img[alt="xxx"],
+  .home img[alt*="Name"],
   .home img[src*="profile"] {
     float: none;
     display: block;
     margin: 0 auto 20px auto;
-    width: 160px;
+    width: 150px;
   }
   
   .home {
     min-height: auto;
+    
+    h1 {
+      text-align: center;
+      font-size: 2em;
+    }
   }
   
   .site-nav {
