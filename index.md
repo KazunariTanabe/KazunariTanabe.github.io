@@ -1,10 +1,9 @@
 ---
 layout: home
+title: Kazunari Tanabe
 ---
 
 ![Profile](/images/profile.jpg){: .profile-photo}
-
-# Kazunari Tanabe
 
 I am a Ph.D candidate in Economics at the London School of Economics. My research interests lie in macroeconomics and economic development.
 
