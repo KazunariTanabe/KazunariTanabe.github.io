@@ -55,39 +55,62 @@ body {
   }
 }
 
+// Profile photo styling - Marco Bellifemine style
+.profile-photo {
+  float: right;
+  width: 200px;  // Good size for profile photo
+  height: auto;  // Maintains aspect ratio
+  margin: 0 0 30px 40px;  // Spacing from text
+  border-radius: 3px;
+}
+
+// Alternative image selectors (in case the class doesn't work)
+.home img[alt="Profile"],
+.home img[alt="xxx"],
+.home img[src*="profile"] {
+  float: right;
+  width: 200px;
+  height: auto;
+  margin: 0 0 30px 40px;
+  border-radius: 3px;
+}
+
 // Homepage specific styles
 .home {
-  // Large name header on homepage
+  // Hide any h1 headers on homepage (since you don't have your name as a header)
   h1 {
-    font-size: 2.5em;
-    font-weight: 600;
-    margin-top: 0;
-    margin-bottom: 30px;
-    color: #24292e;
-    line-height: 1.2;
+    display: none;
   }
   
-  // Section headers on homepage
+  // Make paragraphs clean and readable
+  p {
+    text-align: left;
+    line-height: 1.7;
+    font-size: 16px;
+    margin-bottom: 18px;
+    color: #333;
+    max-width: 100%;
+  }
+  
+  // Ensure minimum height so image doesn't overflow
+  min-height: 250px;
+  
+  // Section headers (if you add them later)
   h2 {
     font-size: 1.3em;
     font-weight: 600;
-    margin-top: 35px;
+    margin-top: 40px;
     margin-bottom: 15px;
     color: #24292e;
-    border-bottom: none;
-    padding-bottom: 0;
+    clear: both; // Ensures headers don't wrap around image
   }
 }
 
-// Profile image - smaller and cleaner
-img[alt*="Name"] {
-  float: right;
-  margin: 0 0 20px 30px;
-  width: 150px;
-  height: 150px;
-  object-fit: cover;
-  border-radius: 3px;
-  box-shadow: 0 1px 3px rgba(0,0,0,0.1);
+// Clear floats after home content
+.home::after {
+  content: "";
+  display: table;
+  clear: both;
 }
 
 // Links - clean blue color
@@ -98,28 +121,6 @@ a {
   &:hover {
     text-decoration: underline;
   }
-}
-
-// Lists - better spacing
-ul {
-  list-style-type: disc;
-  margin-left: 0;
-  padding-left: 25px;
-  
-  li {
-    margin-bottom: 5px;
-  }
-}
-
-// Education section formatting
-.home strong {
-  display: inline;
-  font-weight: 600;
-}
-
-// Paragraphs
-p {
-  margin-bottom: 16px;
 }
 
 // Footer - minimal
@@ -135,7 +136,7 @@ p {
   min-height: 500px;
 }
 
-// Research and CV pages
+// Research and other pages
 .page {
   h1 {
     font-size: 2em;
@@ -161,7 +162,7 @@ p {
   }
 }
 
-// Horizontal rules - subtle
+// Horizontal rules
 hr {
   margin: 30px 0;
   border: none;
@@ -175,17 +176,18 @@ hr {
     padding-right: 20px;
   }
   
-  img[alt*="Name"] {
+  .profile-photo,
+  .home img[alt="Profile"],
+  .home img[alt="xxx"],
+  .home img[src*="profile"] {
     float: none;
     display: block;
-    margin: 0 auto 20px;
-    width: 120px;
-    height: 120px;
+    margin: 0 auto 20px auto;
+    width: 160px;
   }
   
-  .home h1 {
-    font-size: 2em;
-    text-align: center;
+  .home {
+    min-height: auto;
   }
   
   .site-nav {
@@ -208,25 +210,4 @@ hr {
 // Remove excess minima theme styling
 .social-media-list {
   display: none;
-}
-
-// Clean up post listings if you add a blog later
-.post-list {
-  margin-left: 0;
-  list-style: none;
-  
-  li {
-    margin-bottom: 30px;
-  }
-}
-
-.post-meta {
-  font-size: 14px;
-  color: #6a737d;
-}
-
-.post-link {
-  display: block;
-  font-size: 1.3em;
-  font-weight: 600;
 }
