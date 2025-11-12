@@ -2,7 +2,7 @@
 layout: home
 ---
 
-<img src="/images/profile.jpg" alt="xxx" style="float: right; margin: 0 0 20px 30px; width: 150px; height: 150px; object-fit: cover; border-radius: 3px;">
+![Profile](/images/profile.jpg){: .profile-photo}
 
 I am a Ph.D candidate in Economics at the London School of Economics. My research interests lie in macroeconomics and economic development.
 
