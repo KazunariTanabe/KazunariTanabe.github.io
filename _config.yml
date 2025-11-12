@@ -1,11 +1,6 @@
 # Site settings
 title: Kazunari Tanabe
-email: your.email@example.com
-description: >- # this means to ignore newlines until "baseurl:"
-  Ph.D. candidate in [Your Field] at [Your University], 
-  interested in [your interests].
-baseurl: "" # the subpath of your site, e.g. /blog
-url: "" # the base hostname & protocol for your site
+email: k.tanabe2@lse.ac.uk
 
 # Build settings
 markdown: kramdown
@@ -29,4 +24,4 @@ header_pages:
 # Author settings
 author:
   name: Kazunari Tanabe
-  email: your.email@example.com
+  email: k.tanabe2@lse.ac.uk
