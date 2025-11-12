@@ -1,0 +1,32 @@
+# Site settings
+title: Kazunari Tanabe
+email: your.email@example.com
+description: >- # this means to ignore newlines until "baseurl:"
+  Ph.D. candidate in [Your Field] at [Your University], 
+  interested in [your interests].
+baseurl: "" # the subpath of your site, e.g. /blog
+url: "" # the base hostname & protocol for your site
+
+# Build settings
+markdown: kramdown
+theme: minima
+
+# Exclude from processing
+exclude:
+  - Gemfile
+  - Gemfile.lock
+  - node_modules
+  - vendor/bundle/
+  - vendor/cache/
+  - vendor/gems/
+  - vendor/ruby/
+
+# Navigation menu
+header_pages:
+  - research.md
+  - cv.md
+
+# Author settings
+author:
+  name: Kazunari Tanabe
+  email: your.email@example.com
