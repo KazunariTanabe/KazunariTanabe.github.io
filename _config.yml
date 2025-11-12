@@ -20,8 +20,3 @@ exclude:
 header_pages:
   - research.md
   - cv.md
-
-# Author settings
-author:
-  name: Kazunari Tanabe
-  email: k.tanabe2@lse.ac.uk
