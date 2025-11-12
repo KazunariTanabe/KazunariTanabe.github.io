@@ -8,7 +8,7 @@ permalink: /research/
 
 **The Size-Centrality Relationship in Production Networks**
 *with Nikola Dacic and Marko Melolinna*
-new draft coming soon!
+\\ new draft coming soon!
 
 
 ### Work in Progress
