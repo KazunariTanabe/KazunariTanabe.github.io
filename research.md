@@ -6,28 +6,16 @@ permalink: /research/
 
 ## Working Papers
 
-### Your Job Market Paper Title
-**Abstract:** This paper studies... [Your abstract here]
-
-[Download PDF](/files/your_jmp.pdf)
-
----
-
-### Second Paper Title
-*with Coauthor Name*
-
-**Abstract:** We investigate... [Your abstract here]
-
-[Download PDF](/files/paper2.pdf)
+### The Size-Centrality Relationship in Production Networks
+*with Nikola Dacic and Marko Melolinna*
+new draft coming soon!
 
 ---
 
 ## Work in Progress
 
-### Project Title 1
-Brief description of your ongoing work...
+### Cross-Country Agricultural Productivity Differences and Intermediate Input Intensity
 
-### Project Title 2  
-*with Coauthor Name*
+### Cross-Country Differences in the Impacts of Sectoral Shocks
 
-Brief description of your ongoing work...
+### Macroprudential Regulation, Financial Stability, and Economic Growth
