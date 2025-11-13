@@ -1,12 +1,13 @@
 ---
 layout: page
 permalink: /research/
+title: " "
 ---
 
 ### Working Papers
 
-**The Size-Centrality Relationship in Production Networks**
-*with Nikola Dacic and Marko Melolinna*
+**The Size-Centrality Relationship in Production Networks**  
+*with Nikola Dacic and Marko Melolinna*  
 new draft coming soon!
 
 
