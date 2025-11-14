@@ -7,7 +7,6 @@ title: " "
 ### Working Papers
 
 **Cross-Country Differences in the Impacts of Sectoral Shocks** 
-
 draft available upon request
 
 **The Size-Centrality Relationship in Production Networks**  
