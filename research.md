@@ -15,6 +15,6 @@ title: " "
 
 ### Work in Progress
 
-**Cross-Country Agricultural Productivity Differences and Intermediate Input Intensity**
+**Agricultural Productivity, Intermediate Input Intensity, and Domestic R&D Policies**
 
 **Macroprudential Regulation, Financial Stability, and Economic Growth**
