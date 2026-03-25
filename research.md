@@ -15,6 +15,6 @@ title: " "
 
 ### Work in Progress
 
-**Agricultural Productivity, Intermediate Input Intensity, and Domestic R&D Policies**
+**Agricultural Productivity Differences and Directed Technical Change**
 
 **Macroprudential Regulation, Financial Stability, and Economic Growth**
