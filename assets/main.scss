@@ -219,3 +219,13 @@ hr {
 .social-media-list {
   display: none;
 }
+
+
+.paper-link,
+.paper-link:visited {
+  color: #0366d6;  // GitHub-style blue; adjust to taste
+}
+
+.paper-link:hover {
+  text-decoration: underline;
+}
