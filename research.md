@@ -9,7 +9,8 @@ title: " "
 **Cross-Country Differences in the Impacts of Sectoral Shocks**  
 (draft available upon request)
 
-**[The Size-Centrality Relationship in Production Networks](/files/SizeCentrality_DMT.pdf){: .paper-link}**  
+\\ **[The Size-Centrality Relationship in Production Networks](/files/SizeCentrality_DMT.pdf){: .paper-link}**
+**The Size-Centrality Relationship in Production Networks**  
 *with Nikola Dacic and Marko Melolinna*
 
 ### Work in Progress
