@@ -6,7 +6,7 @@ layout: home
 
 ![Kazunari Tanabe](/images/profile.jpg){: .profile-photo}
 
-I am a fifth-year Ph.D. student in Economics at the London School of Economics.
+I am a PhD candidate in Economics at the London School of Economics.
 
 My research interests lie in macroeconomics and economic development.
 
