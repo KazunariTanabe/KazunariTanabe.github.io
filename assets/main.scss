@@ -236,23 +236,18 @@ hr {
 
   > summary {
     cursor: pointer;
-    display: inline-block;
-    color: #0366d6;
+    display: list-item;
+    color: #6a737d;
     font-weight: 600;
     font-size: 0.95em;
-    list-style: none;          // hide default disclosure triangle
     user-select: none;
 
-    &::-webkit-details-marker { // hide triangle in Safari
-      display: none;
-    }
-
     &:hover {
+      color: #24292e;
       text-decoration: underline;
     }
   }
 
-  // Indent and lightly style the revealed abstract text
   > *:not(summary) {
     margin-left: 1em;
     color: #333;
