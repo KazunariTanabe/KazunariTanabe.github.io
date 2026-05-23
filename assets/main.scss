@@ -240,9 +240,9 @@ hr {
     font-weight: 600;
     font-size: 0.95em;
     user-select: none;
-    list-style: none;        // hide default browser triangle
+    list-style: none;        // hide default browser triangle (Chrome, Firefox, Edge)
 
-    &::-webkit-details-marker {  // hide it in Safari too
+    &::-webkit-details-marker {  // hide default triangle in Safari
       display: none;
     }
 
