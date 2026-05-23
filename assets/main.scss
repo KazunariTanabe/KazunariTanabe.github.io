@@ -229,3 +229,34 @@ hr {
 .paper-link:hover {
   text-decoration: underline;
 }
+
+
+.abstract-toggle {
+  margin: 0.4em 0 1.2em 0;
+
+  > summary {
+    cursor: pointer;
+    display: inline-block;
+    color: #0366d6;
+    font-weight: 600;
+    font-size: 0.95em;
+    list-style: none;          // hide default disclosure triangle
+    user-select: none;
+
+    &::-webkit-details-marker { // hide triangle in Safari
+      display: none;
+    }
+
+    &:hover {
+      text-decoration: underline;
+    }
+  }
+
+  // Indent and lightly style the revealed abstract text
+  > *:not(summary) {
+    margin-left: 1em;
+    color: #333;
+    font-size: 0.95em;
+    line-height: 1.55;
+  }
+}
