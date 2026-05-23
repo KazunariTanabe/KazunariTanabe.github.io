@@ -4,6 +4,10 @@ permalink: /research/
 title: " "
 ---
 
+### Job Market Paper
+
+**Agricultural Productivity Differences and Directed Technical Change**
+
 ### Working Papers
 
 **Cross-Country Differences in the Impacts of Sectoral Shocks**  
@@ -13,7 +17,5 @@ title: " "
 *with Nikola Dacic and Marko Melolinna*
 
 ### Work in Progress
-
-**Agricultural Productivity Differences and Directed Technical Change**
 
 **Macroprudential Regulation, Financial Stability, and Economic Growth**
