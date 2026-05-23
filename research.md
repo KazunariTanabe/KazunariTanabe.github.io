@@ -15,6 +15,8 @@ Coming soon.
 
 </details>
 
+<br>
+
 ### Working Papers
 
 **[The Size-Centrality Relationship in Production Networks](/files/SizeCentrality_DMT.pdf){: .paper-link}**  
@@ -36,6 +38,8 @@ Standard production network models with only technology shocks predict that indu
 This paper proposes a mechanism by which the impacts of sectoral shocks are different between rich and poor countries, and explores its quantitative importance. I develop a multisector general equilibrium framework that features an input-output network and non-homothetic preferences. I show that the aggregate impact of sectoral shocks is asymmetric, in the sense that there is amplification and mitigation of their impacts relative to the homothetic-preferences benchmark. Using sectoral data and input-output tables from rich and poor countries, I quantify the theoretical insights and argue that this channel---the interaction of input-output linkages and non-homotheticities---is quantitatively important in driving cross-country differences in the impacts of sectoral shocks.
 
 </details>
+
+<br>
 
 ### Work in Progress
 
