@@ -240,14 +240,18 @@ hr {
     font-weight: 600;
     font-size: 0.95em;
     user-select: none;
-    list-style-position: outside;
+    list-style: none;        // hide default browser triangle
+
+    &::-webkit-details-marker {  // hide it in Safari too
+      display: none;
+    }
 
     &:hover {
       color: #24292e !important;
       text-decoration: underline;
     }
 
-    // Fallback triangle for browsers that hide the default marker
+    // Custom triangle
     &::before {
       content: "▶";
       display: inline-block;
