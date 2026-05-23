@@ -220,32 +220,46 @@ hr {
   display: none;
 }
 
-
+// Paper title links on research page
 .paper-link,
 .paper-link:visited {
-  color: #0366d6;  // GitHub-style blue; adjust to taste
+  color: #0366d6;  // GitHub-style blue
 }
 
 .paper-link:hover {
   text-decoration: underline;
 }
 
-
+// Abstract toggles on research page
 .abstract-toggle {
   margin: 0.4em 0 1.2em 0;
 
   > summary {
     cursor: pointer;
-    display: list-item;
-    color: #6a737d;
+    color: #6a737d !important;
     font-weight: 600;
     font-size: 0.95em;
     user-select: none;
+    list-style-position: outside;
 
     &:hover {
-      color: #24292e;
+      color: #24292e !important;
       text-decoration: underline;
     }
+
+    // Fallback triangle for browsers that hide the default marker
+    &::before {
+      content: "▶";
+      display: inline-block;
+      font-size: 0.75em;
+      margin-right: 0.4em;
+      transition: transform 0.2s ease;
+    }
+  }
+
+  // Rotate the triangle when the abstract is open
+  &[open] > summary::before {
+    transform: rotate(90deg);
   }
 
   > *:not(summary) {
