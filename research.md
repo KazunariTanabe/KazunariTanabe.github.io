@@ -4,19 +4,6 @@ permalink: /research/
 title: " "
 ---
 
-### Job Market Paper
-
-**Agricultural Productivity Differences and Directed Technical Change**
-
-<details markdown="1" class="abstract-toggle">
-<summary>Abstract</summary>
-
-Coming soon.
-
-</details>
-
-<br>
-
 ### Working Papers
 
 **[The Size-Centrality Relationship in Production Networks](/files/SizeCentrality_DMT.pdf){: .paper-link}**  
@@ -42,5 +29,7 @@ This paper proposes a mechanism by which the impacts of sectoral shocks are diff
 <br>
 
 ### Work in Progress
+
+**Agricultural Productivity Differences and Directed Technical Change**
 
 **Macroprudential Regulation, Financial Stability, and Economic Growth**
