@@ -22,7 +22,7 @@ Standard production network models with only technology shocks predict that indu
 <details markdown="1" class="abstract-toggle">
 <summary>Abstract</summary>
 
-This paper proposes a mechanism by which the impacts of sectoral shocks are different between rich and poor countries, and explores its quantitative importance. I develop a multisector general equilibrium framework that features an input-output network and non-homothetic preferences. I show that the aggregate impact of sectoral shocks is asymmetric, in the sense that there is amplification and mitigation of their impacts relative to the homothetic-preferences benchmark. Using sectoral data and input-output tables from rich and poor countries, I quantify the theoretical insights and argue that this channel---the interaction of input-output linkages and non-homotheticities---is quantitatively important in driving cross-country differences in the impacts of sectoral shocks.
+The same sectoral shock can devastate a poor country and leave a rich one largely unaffected.  I explain this contrast in a multisector model with input-output linkages and non-homothetic preferences, in which GDP and welfare respond differently to identical shocks.  Calibrating the model to 80 economies, I find that a common agricultural shock produces median welfare losses 19.0 times larger in the poorest quartile of countries than in the richest, against a factor of 1.46 for GDP.  The vulnerability of poor countries stems mainly from subsistence demand, and the role of production networks itself changes as countries develop.
 
 </details>
 
