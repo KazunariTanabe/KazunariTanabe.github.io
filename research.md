@@ -32,7 +32,7 @@ The same sectoral shock can devastate a poor country and leave a rich one largel
 
 **Agricultural Productivity Differences and Directed Technical Change**
 
-**Informality and the Job Ladder in Developing Countries** 
+**Informality and the Job Ladder in Developing Countries**<br>
 *with Matthias Doepke*
 
 **Macroprudential Regulation, Financial Stability, and Economic Growth**
