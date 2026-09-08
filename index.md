@@ -14,12 +14,6 @@ My research interests lie in macroeconomics and economic development.
 
 My CV is available [here](/files/cv.pdf). You can contact me at [k.tanabe2@lse.ac.uk](mailto:k.tanabe2@lse.ac.uk).
 
-**I will be on the 2026/2027 academic job market.**
-
-## Job Market Paper
-
-**Agricultural Productivity Differences and Directed Technical Change**  
-
 ## Working Papers
 
 **[The Size-Centrality Relationship in Production Networks](/files/SizeCentrality_DMT.pdf){: .paper-link}**  
@@ -43,6 +37,8 @@ The same sectoral shock can devastate a poor country and leave a rich one largel
 </details>
 
 ## Work in Progress
+
+**Agricultural Productivity Differences and Directed Technical Change**
 
 **Informality and the Job Ladder in Developing Countries**  
 *with Matthias Doepke*
