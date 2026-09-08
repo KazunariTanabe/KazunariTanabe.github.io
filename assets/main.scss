@@ -3,236 +3,127 @@
 
 @import "minima";
 
-// Override default styles for a cleaner look
+// =====================================================================
+//  Kazunari Tanabe — single-page academic site
+// =====================================================================
 
-// Body and general typography
+// ---------- Base ------------------------------------------------------
 body {
-  font-family: -apple-system, BlinkMacSystemFont, "Segoe UI", "Roboto", "Helvetica Neue", Arial, sans-serif;
+  font-family: -apple-system, BlinkMacSystemFont, "Segoe UI", "Roboto",
+               "Helvetica Neue", Arial, sans-serif;
   font-size: 16px;
   line-height: 1.6;
   color: #24292e;
   background-color: #fff;
 }
 
-// Container width
 .wrapper {
   max-width: 900px;
 }
 
-// Header styling - minimal and clean
-.site-header {
-  border-top: none;
-  border-bottom: 1px solid #e1e4e8;
-  min-height: 64px;
-  background-color: #fff;
-}
+a {
+  color: #0366d6;
+  text-decoration: none;
 
-.site-title {
-  font-size: 18px;
-  font-weight: 600;
-  letter-spacing: 0;
-  color: #24292e;
-  
   &:hover {
-    text-decoration: none;
-    color: #0366d6;
+    text-decoration: underline;
   }
 }
 
-// Hide site title only on homepage
-.home-page .site-title {
-  visibility: hidden;
-  width: 0;
-}
-
-// Navigation links
+// ---------- Header removed --------------------------------------------
+// _includes/header.html is empty, so nothing should render. These rules
+// are a safety net in case any theme markup reappears after an update.
+.site-header,
 .site-nav {
-  line-height: 64px;
-  
-  .page-link {
-    color: #24292e;
-    font-size: 16px;
-    margin-left: 20px;
-    
-    &:hover {
-      color: #0366d6;
-      text-decoration: none;
-    }
-  }
+  display: none;
 }
 
-// Profile photo styling
-.profile-photo,
-.home img[alt*="Name"],
-.home img[src*="profile"] {
+.page-content {
+  padding: 55px 0 45px;
+  min-height: 60vh;
+}
+
+// ---------- Profile photo ---------------------------------------------
+// The wrapper floats, so the photo starts level with the name rather
+// than level with the first line of the description.
+.profile-photo-wrap {
   float: right;
-  width: 240px;  // Larger size for better visibility
-  height: auto;  // Maintains aspect ratio
-  margin: 0 0 30px 40px;  // Spacing from text
-  border-radius: 3px;
-  box-shadow: 0 1px 3px rgba(0,0,0,0.1);
+  width: 230px;
+  margin: 4px 0 25px 40px;
 }
 
-// Homepage specific styles
+.profile-photo {
+  display: block;
+  width: 100%;
+  height: auto;
+  border-radius: 4px;
+  box-shadow: 0 1px 3px rgba(0, 0, 0, 0.12);
+}
+
+// ---------- Home page --------------------------------------------------
 .home {
-  // Large name header like sjhobler.github.io
   h1 {
-    font-size: 2.5em;  // Large size like sjhobler
+    font-size: 2.5em;
     font-weight: 600;
-    margin-top: 0;
-    margin-bottom: 25px;
-    color: #24292e;
     line-height: 1.2;
-    display: block; // Make sure it shows
+    margin-top: 0;
+    margin-bottom: 22px;
+    color: #24292e;
   }
-  
-  // Make paragraphs clean and readable
-  p {
-    text-align: left;
+
+  // Section headings: "Working Papers", "Work in Progress"
+  h2 {
+    clear: both;              // always start below the photo
+    font-size: 1.4em;
+    font-weight: 600;
+    margin-top: 48px;
+    margin-bottom: 20px;
+    padding-bottom: 8px;
+    border-bottom: 1px solid #e1e4e8;
+    color: #24292e;
+  }
+
+  h3 {
+    font-size: 1.1em;
+    font-weight: 600;
+    margin-top: 24px;
+    margin-bottom: 8px;
+    color: #24292e;
+  }
+
+  > p {
     line-height: 1.7;
-    font-size: 16px;
-    margin-bottom: 18px;
+    margin-bottom: 15px;
     color: #333;
   }
-  
-  // Ensure minimum height so image doesn't overflow
-  min-height: 250px;
-  
-  // Section headers if you add them later
-  h2 {
-    font-size: 1.3em;
-    font-weight: 600;
-    margin-top: 40px;
-    margin-bottom: 15px;
-    color: #24292e;
-    clear: both; // Ensures headers don't wrap around image
-    border-bottom: none;
+
+  // Tighten the gap between a paper title and its Abstract toggle.
+  // Older browsers ignore this and keep the normal spacing.
+  > p:has(+ .abstract-toggle) {
+    margin-bottom: 4px;
   }
 }
 
-// Clear floats after home content
+// Clear the floated photo
 .home::after {
   content: "";
   display: table;
   clear: both;
 }
 
-// Links - clean blue color
-a {
-  color: #0366d6;
-  text-decoration: none;
-  
-  &:hover {
-    text-decoration: underline;
-  }
-}
-
-// Footer - minimal
-.site-footer {
-  border-top: 1px solid #e1e4e8;
-  padding: 20px 0;
-  background-color: #fafbfc;
-}
-
-// Page content padding
-.page-content {
-  padding: 40px 0;
-  min-height: 500px;
-}
-
-// Research and other pages
-.page {
-  h1 {
-    font-size: 2em;
-    font-weight: 600;
-    margin-bottom: 30px;
-    color: #24292e;
-  }
-  
-  h2 {
-    font-size: 1.5em;
-    font-weight: 600;
-    margin-top: 30px;
-    margin-bottom: 15px;
-    color: #24292e;
-  }
-  
-  h3 {
-    font-size: 1.2em;
-    font-weight: 600;
-    margin-top: 20px;
-    margin-bottom: 10px;
-    color: #24292e;
-  }
-}
-
-// Horizontal rules
-hr {
-  margin: 30px 0;
-  border: none;
-  border-top: 1px solid #e1e4e8;
-}
-
-// Mobile responsive design
-@media screen and (max-width: 600px) {
-  .wrapper {
-    padding-left: 20px;
-    padding-right: 20px;
-  }
-  
-  .profile-photo,
-  .home img[alt*="Name"],
-  .home img[src*="profile"] {
-    float: none;
-    display: block;
-    margin: 0 auto 20px auto;
-    width: 180px;  // Slightly larger on mobile too
-  }
-  
-  .home {
-    min-height: auto;
-    
-    h1 {
-      text-align: center;
-      font-size: 2em;
-    }
-  }
-  
-  .site-nav {
-    position: absolute;
-    top: 9px;
-    right: 15px;
-    background-color: #fff;
-    border: 1px solid #e1e4e8;
-    border-radius: 5px;
-    text-align: right;
-    
-    .page-link {
-      display: block;
-      padding: 5px 10px;
-      margin-left: 0;
-    }
-  }
-}
-
-// Remove excess minima theme styling
-.social-media-list {
-  display: none;
-}
-
-// Paper title links on research page
+// ---------- Paper title links ------------------------------------------
 .paper-link,
 .paper-link:visited {
-  color: #0366d6;  // GitHub-style blue
+  color: #0366d6;
 }
 
 .paper-link:hover {
   text-decoration: underline;
 }
 
-// Abstract toggles on research page
+// ---------- Abstract toggles -------------------------------------------
 .abstract-toggle {
-  margin: 0.4em 0 1.2em 0;
+  margin: 0 0 26px 0;
 
   > summary {
     cursor: pointer;
@@ -240,9 +131,9 @@ hr {
     font-weight: 600;
     font-size: 0.95em;
     user-select: none;
-    list-style: none;        // hide default browser triangle (Chrome, Firefox, Edge)
+    list-style: none;            // hide default marker (Chrome, Firefox, Edge)
 
-    &::-webkit-details-marker {  // hide default triangle in Safari
+    &::-webkit-details-marker {  // hide default marker (Safari)
       display: none;
     }
 
@@ -251,7 +142,6 @@ hr {
       text-decoration: underline;
     }
 
-    // Custom triangle
     &::before {
       content: "▶";
       display: inline-block;
@@ -261,7 +151,6 @@ hr {
     }
   }
 
-  // Rotate the triangle when the abstract is open
   &[open] > summary::before {
     transform: rotate(90deg);
   }
@@ -271,5 +160,56 @@ hr {
     color: #333;
     font-size: 0.95em;
     line-height: 1.55;
+  }
+}
+
+// ---------- Other pages (404, future additions) -------------------------
+.page {
+  h1 { font-size: 2em;   font-weight: 600; margin-bottom: 30px; color: #24292e; }
+  h2 { font-size: 1.5em; font-weight: 600; margin: 30px 0 15px; color: #24292e; }
+  h3 { font-size: 1.2em; font-weight: 600; margin: 20px 0 10px; color: #24292e; }
+}
+
+// ---------- Footer ------------------------------------------------------
+.site-footer {
+  border-top: 1px solid #e1e4e8;
+  padding: 20px 0;
+  background-color: #fafbfc;
+}
+
+.social-media-list {
+  display: none;
+}
+
+hr {
+  margin: 30px 0;
+  border: none;
+  border-top: 1px solid #e1e4e8;
+}
+
+// ---------- Mobile ------------------------------------------------------
+@media screen and (max-width: 600px) {
+  .wrapper {
+    padding-left: 20px;
+    padding-right: 20px;
+  }
+
+  .page-content {
+    padding: 35px 0 30px;
+  }
+
+  .profile-photo-wrap {
+    float: none;
+    width: 190px;
+    margin: 0 auto 22px auto;
+  }
+
+  .home h1 {
+    text-align: center;
+    font-size: 2em;
+  }
+
+  .home h2 {
+    margin-top: 38px;
   }
 }
