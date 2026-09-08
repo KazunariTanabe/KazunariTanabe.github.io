@@ -14,7 +14,7 @@ My research interests lie in macroeconomics and economic development.
 
 My CV is available [here](/files/cv.pdf). You can contact me at [k.tanabe2@lse.ac.uk](mailto:k.tanabe2@lse.ac.uk).
 
-*I will be on the 2026/2027 academic job market.*
+**I will be on the 2026/2027 academic job market.**
 
 ## Job Market Paper
 
