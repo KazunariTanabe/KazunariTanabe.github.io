@@ -14,8 +14,3 @@ exclude:
   - vendor/cache/
   - vendor/gems/
   - vendor/ruby/
-
-# Navigation menu
-header_pages:
-  - research.md
-  - cv.md
