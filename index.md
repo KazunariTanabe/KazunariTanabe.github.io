@@ -54,10 +54,3 @@ The same sectoral shock can devastate a poor country and leave a rich one largel
 *with Matthias Doepke*
 
 **Macroprudential Regulation, Financial Stability, and Economic Growth**
-
-<details markdown="1" class="abstract-toggle">
-<summary>Abstract</summary>
-
-How does macroprudential regulation affect economic growth and welfare? We develop an endogenous growth model in which financial crises arise from Fisherian debt deflation. A price-dependent collateral constraint and technological spillovers generate negative pecuniary externalities and physical capital externalities, respectively. We find that, for a wide range of parameter values, macroprudential regulation that corrects only these pecuniary externalities reduces economic growth. Such regulation also lowers welfare because the costs of slower growth outweigh the benefits of greater financial stability. Finally, we show that whether the decentralized economy exhibits over- or underborrowing and over- or underinvestment depends on the relative distortions in capital demand and supply induced by the two externalities.
-
-</details>
