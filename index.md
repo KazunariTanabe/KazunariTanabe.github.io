@@ -6,7 +6,7 @@ layout: home
   <img src="/images/profile.jpg" alt="Kazunari Tanabe" class="profile-photo">
 </div>
 
-# Kazunari Tanabe
+## Kazunari Tanabe
 
 I am a PhD candidate in Economics at the London School of Economics.
 
