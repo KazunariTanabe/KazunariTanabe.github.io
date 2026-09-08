@@ -20,13 +20,6 @@ My CV is available [here](/files/cv.pdf). You can contact me at [k.tanabe2@lse.a
 
 **Agricultural Productivity Differences and Directed Technical Change**  
 
-<details markdown="1" class="abstract-toggle">
-<summary>Abstract</summary>
-
-Coming soon
-
-</details>
-
 ## Working Papers
 
 **[The Size-Centrality Relationship in Production Networks](/files/SizeCentrality_DMT.pdf){: .paper-link}**  
