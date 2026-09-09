@@ -39,7 +39,7 @@ Standard production network models with only technology shocks predict that indu
 
 </details>
 
-**Cross-Country Differences in the Impacts of Sectoral Shocks**
+**[Cross-Country Differences in the Impacts of Sectoral Shocks](/files/sectoral_shocks_cross_country.pdf){: .paper-link}**
 
 <details markdown="1" class="abstract-toggle">
 <summary>Abstract</summary>
