@@ -53,6 +53,13 @@ The same sectoral shock can devastate a poor country and leave a rich one largel
 **Informality and the Job Ladder in Developing Countries**  
 *with Matthias Doepke*
 
+<details markdown="1" class="abstract-toggle">
+<summary>Abstract</summary>
+
+Coming soon.
+
+</details>
+
 **[Macroprudential Regulation, Financial Stability, and Economic Growth](/files/MPR_growth.pdf){: .paper-link}**
 
 <details markdown="1" class="abstract-toggle">
