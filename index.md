@@ -12,7 +12,7 @@ I am a PhD candidate in Economics at the London School of Economics.
 
 My research interests lie in macroeconomics and economic development.
 
-My CV is available [here](/files/cv_kazunari_tanabe.pdf). You can contact me at [k.tanabe2@lse.ac.uk](mailto:k.tanabe2@lse.ac.uk).
+My CV is available [here](/files/cv_kazunari_tanabe.pdf){: target="_blank"}. You can contact me at [k.tanabe2@lse.ac.uk](mailto:k.tanabe2@lse.ac.uk).
 
 **I will be on the 2026/2027 academic job market.** 
 
@@ -29,7 +29,7 @@ Coming soon.
 
 ## Working Papers
 
-**[The Size-Centrality Relationship in Production Networks](/files/SizeCentrality_DMT.pdf){: .paper-link}**  
+**[The Size-Centrality Relationship in Production Networks](/files/SizeCentrality_DMT.pdf){: .paper-link target="_blank"}**  
 *with Nikola Dacic and Marko Melolinna*
 
 <details markdown="1" class="abstract-toggle">
@@ -39,7 +39,7 @@ Standard production network models with only technology shocks predict that indu
 
 </details>
 
-**[Cross-Country Differences in the Impacts of Sectoral Shocks](/files/sectoral_shocks_cross_country.pdf){: .paper-link}**
+**[Cross-Country Differences in the Impacts of Sectoral Shocks](/files/sectoral_shocks_cross_country.pdf){: .paper-link target="_blank"}**
 
 <details markdown="1" class="abstract-toggle">
 <summary>Abstract</summary>
@@ -60,11 +60,11 @@ Coming soon.
 
 </details>
 
-**[Macroprudential Regulation, Financial Stability, and Economic Growth](/files/MPR_growth.pdf){: .paper-link}**
+**[Macroprudential Regulation, Financial Stability, and Economic Growth](/files/MPR_growth.pdf){: .paper-link target="_blank"}**
 
 <details markdown="1" class="abstract-toggle">
 <summary>Abstract</summary>
 
-How does macroprudential regulation affect economic growth and welfare? We develop an endogenous growth model in which financial crises arise from Fisherian debt deflation. A price-dependent collateral constraint and technological spillovers generate negative pecuniary externalities and physical capital externalities, respectively. We find that, for a wide range of parameter values, macroprudential regulation that corrects only these pecuniary externalities reduces economic growth. Such regulation also lowers welfare because the costs of slower growth outweigh the benefits of greater financial stability. Finally, we show that whether the decentralized economy exhibits over- or underborrowing and over- or underinvestment depends on the relative distortions in capital demand and supply induced by the two externalities.
+How does macroprudential regulation affect economic growth and welfare? I develop an endogenous growth model in which financial crises arise from Fisherian debt deflation. A price-dependent collateral constraint and technological spillovers generate negative pecuniary externalities and physical capital externalities, respectively. I find that, for a wide range of parameter values, macroprudential regulation that corrects only these pecuniary externalities reduces economic growth. Such regulation also lowers welfare because the costs of slower growth outweigh the benefits of greater financial stability. Finally, I show that whether the decentralized economy exhibits over- or underborrowing and over- or underinvestment depends on the relative distortions in capital demand and supply induced by the two externalities.
 
 </details>
