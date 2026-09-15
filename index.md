@@ -71,10 +71,10 @@ How does macroprudential regulation affect economic growth and welfare? I develo
 
 ## Teaching
 
-Teaching Assistant for EC413 Macroeconomics (master’s level), LSE
+Teaching Assistant for *EC413 Macroeconomics (master’s level), LSE*
 
-Teaching Assistant for EC400 Introductory Course in Mathematics and Statistics (master’s level), LSE
+Teaching Assistant for *EC400 Introductory Course in Mathematics and Statistics (master’s level), LSE*
 
-Teaching Assistant for EC2B1 Macroeconomics II (undergraduate level), LSE
+Teaching Assistant for *EC2B1 Macroeconomics II (undergraduate level), LSE*
 
-Teaching Assistant for the Computational Tools for Macroeconomists Summer School (PhD level)
+Teaching Assistant for the *Computational Tools for Macroeconomists Summer School (PhD level)*
