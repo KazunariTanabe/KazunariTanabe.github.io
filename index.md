@@ -68,3 +68,13 @@ Coming soon.
 How does macroprudential regulation affect economic growth and welfare? I develop an endogenous growth model in which financial crises arise from Fisherian debt deflation. A price-dependent collateral constraint and technological spillovers generate negative pecuniary externalities and physical capital externalities, respectively. I find that, for a wide range of parameter values, macroprudential regulation that corrects only these pecuniary externalities reduces economic growth. Such regulation also lowers welfare because the costs of slower growth outweigh the benefits of greater financial stability. Finally, I show that whether the decentralized economy exhibits over- or underborrowing and over- or underinvestment depends on the relative distortions in capital demand and supply induced by the two externalities.
 
 </details>
+
+## Teaching
+
+Teaching Assistant for EC413 Macroeconomics (master’s level), LSE
+
+Teaching Assistant for EC400 Introductory Course in Mathematics and Statistics (master’s level), LSE
+
+Teaching Assistant for EC2B1 Macroeconomics II (undergraduate level), LSE
+
+Teaching Assistant for the Computational Tools for Macroeconomists Summer School (PhD level)
