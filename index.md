@@ -62,13 +62,6 @@ How does macroprudential regulation affect economic growth and welfare? I develo
 **Informality and the Job Ladder in Developing Countries**  
 *with Matthias Doepke*
 
-<details markdown="1" class="abstract-toggle">
-<summary>Abstract</summary>
-
-Coming soon.
-
-</details>
-
 ## Teaching
 
 Teaching Assistant for *EC413 Macroeconomics (master’s level), LSE*
