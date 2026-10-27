@@ -23,7 +23,7 @@ My CV is available [here](/files/cv_kazunari_tanabe.pdf){: target="_blank"}. You
 <details markdown="1" class="abstract-toggle">
 <summary>Abstract</summary>
 
-Coming soon.
+Why are agricultural productivity differences across countries so large? I develop a dynamic general equilibrium model in which directed innovation locks poor countries into agricultural technologies suited to rich-country environments but inappropriate for their own. Small markets can make innovation in locally adapted technologies unprofitable. These technologies then fall further behind the frontier and lose market share, eventually leading farmers to adopt inappropriate but frontier technologies. This dynamic lock-in is inefficient, because most gains from improving locally adapted technologies accrue to future innovators and farmers, and missing intertemporal markets prevent the innovator from appropriating them. Calibrating the model to Tanzania and the US, I find that directed innovation since 1982 contributes to their agricultural productivity difference by 42 percent in 2017. An R&D subsidy for locally adapted technologies can narrow this difference and raise welfare in Tanzania even though its households finance it.
 
 </details>
 
