@@ -18,7 +18,7 @@ My CV is available [here](/files/cv_kazunari_tanabe.pdf){: target="_blank"}. You
 
 ## Job Market Paper
 
-**Not Worth Innovating For? Dynamic Lock-In of Agricultural Productivity Differences** 
+**[Not Worth Innovating For? Dynamic Lock-In of Agricultural Productivity Differences](/files/JMP_Kazunari_Tanabe.pdf){: .paper-link target="_blank"}** 
 
 <details markdown="1" class="abstract-toggle">
 <summary>Abstract</summary>
